@@ -86,7 +86,11 @@ Redis Connection Error on Windows [follow this tutorial.](https://medium.com/@ka
 
 ## App Architecture
 
-Explaining the architecture of the tradingroom app?
+1. Environment Vars (attach config.json file and explain vars)
+2. Configuration (explain required api/socket URLs to get the app running for eg. streamer socket connection in config.json for chart price data)
+3. Client (explain folder structure, for eg. util.js file for reusable functions, /app/services for HTTP API calls)
+4. Middleware
+5. Server
 
 ---
 
